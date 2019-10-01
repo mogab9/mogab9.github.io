@@ -1,0 +1,32 @@
+body {
+  background-image: url('../images/pattern.png');
+}
+header {
+  margin-top: 3%;
+}
+h1 {
+  color: #65b23c;
+}
+h5 {
+   color: #65b23c;
+}
+code {
+    margin: 5px;
+}
+.title strong {font-size: 1em; line-height: 1.1em; color: #65b23c;}
+.alinea {display:block; text-indent: 1.5em;}
+.info-techno strong {color: #65b23c;}
+#download { float:right; }
+/* mobile */
+@media (max-width: 550px) {
+  aside ul li {
+    font-size: 1.1em;
+  }
+  h5 {
+    font-weight: bold;
+  }
+  #download { display: none; }
+  .nine {
+    margin-bottom: 0.8em;
+  }
+}
